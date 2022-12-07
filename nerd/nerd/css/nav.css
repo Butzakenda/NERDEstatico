@@ -1,0 +1,15 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;   
+    margin: 20px;
+    padding-bottom: 15px;
+    border-bottom: 8px solid black;
+}
+nav > a{
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+}

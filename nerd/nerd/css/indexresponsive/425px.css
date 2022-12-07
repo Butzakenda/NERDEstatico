@@ -1,0 +1,42 @@
+@media (min-width:425px) and (max-width:426px) {
+    .login{
+        margin: 5px;
+        transition: 1s;
+    }
+    .tituloingreso{
+        font-size: 23px;
+        transition: 1s;
+    }
+    .recientes{
+        margin: 5px;
+        border-top: 2px solid black;
+        padding-top: 55px;
+        display: block;
+        margin-left: 12px;
+        gap: 20px;
+        width: auto;
+        transition: 1s;
+    }
+    .boxrecientes{
+        display: grid;
+        grid-template-columns: 100%;
+        width: 400px;
+        height: 400px;
+       
+        margin-bottom: 15px;    
+        border: 2px solid black;
+        transition: 1s;
+    }
+    .redes{
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        transition: 1s;
+    }
+    .logored > a{
+        padding: 50px;
+        transition: 1s;
+       
+    }
+    
+}
